@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300;400;500;600;700;800&display=swap');
+
 @font-face {
   font-family: 'Android';
   src: url('/fontes/idroid.otf') format('opentype');
@@ -18,7 +20,7 @@
 
 --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 --fonte-destaque: 'Bebas Neue', sans-serif;
---fonte-android: 'Android', cursive;
+--fonte-android: 'Android', 'Handjet', cursive;
 }
 
 * {
@@ -70,7 +72,7 @@ nav {
 nav > a {
   color: var(--cor1);
   text-decoration: none;
-  padding: 7px;
+  padding: 5px;
   border-radius: 5px;
   font-weight: bold;
   transition-duration: .5s;
@@ -95,7 +97,7 @@ main {
 main h1 {
   color: var(--cor5);
   font-family: var(--fonte-android);
-  font-weight: normal;
+  font-weight: bold;
   font-size: 1.8em;
 }
 
@@ -117,7 +119,7 @@ main h2 {
   font-family: var(--fonte-android);
   color: var(--cor4);
   font-size: 1.3em;
-  font-weight: normal;
+  font-weight: bold;
   background-image: linear-gradient(to right, var(--cor1), transparent);
   text-indent: 8px;
 }
